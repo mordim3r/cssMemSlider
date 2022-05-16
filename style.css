@@ -31,7 +31,7 @@ input {
     display: flex;
     align-items: center;
     width: 500%;
-    transition: all 0.3s;
+    transition: 0.3s;
 }
 
 .img {
@@ -58,13 +58,10 @@ label {
     border: 0.5rem solid #93C4C0;
     border-radius: 1rem;
     cursor: pointer;
-    transition: all 0.3s;
+   
 }
 
-label:hover {
-    opacity: 1;
-    transform: scale(1.1);
-}
+
 
 label:checked {
     background-color: #51505C;
@@ -83,9 +80,10 @@ label:checked {
 
 .text {
     height: 400%;
-    transition: left 0.3s;
+    
     font: 1.5em/2rem 'Arial', sans-serif;
     color: rgb(8, 35, 55);
+    transition: 0.3s;
 }
 
 #slide1:checked~.img_wrapper {
