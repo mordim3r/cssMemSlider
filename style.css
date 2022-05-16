@@ -58,10 +58,14 @@ label {
     border: 0.5rem solid #93C4C0;
     border-radius: 1rem;
     cursor: pointer;
-   
+    transition: all 0.5s;
 }
 
-
+label:hover {
+    color: rgb(8, 35, 55);
+    transform: scale(1.1);
+    
+}
 
 label:checked {
     background-color: #51505C;
@@ -80,9 +84,8 @@ label:checked {
 
 .text {
     height: 400%;
-    
-    font: 1.5em/2rem 'Arial', sans-serif;
     color: rgb(8, 35, 55);
+    font: 1.7rem 'Arial', sans-serif;
     transition: 0.3s;
 }
 
